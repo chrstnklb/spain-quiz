@@ -4,6 +4,7 @@ export interface MCQuestion {
   text: string;
   options: string[];
   correctIndex: number;
+  points: number;
 }
 
 export interface EstimateQuestion {
@@ -13,6 +14,7 @@ export interface EstimateQuestion {
   target: number;
   tolerance: number;
   unit: string;
+  points: number;
 }
 
 export type Question = MCQuestion | EstimateQuestion;
@@ -27,6 +29,7 @@ export interface DayBundle {
 export interface PlayerScore {
   player_name: string;
   total_points: number;
+  answered_count: number;
 }
 
 export type VacationDay = number | 'before' | 'after';

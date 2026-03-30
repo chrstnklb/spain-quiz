@@ -18,6 +18,7 @@ export function HighscoreView() {
               <th style={styles.th}>#</th>
               <th style={styles.th}>Name</th>
               <th style={styles.th}>Punkte</th>
+              <th style={styles.th}>Fragen</th>
             </tr>
           </thead>
           <tbody>
@@ -26,6 +27,7 @@ export function HighscoreView() {
                 <td style={styles.td}>{i + 1}</td>
                 <td style={styles.td}>{i === 0 ? '🥇 ' : i === 1 ? '🥈 ' : i === 2 ? '🥉 ' : ''}{s.player_name}</td>
                 <td style={{ ...styles.td, fontWeight: 'bold' }}>{s.total_points}</td>
+                <td style={styles.td}>{s.answered_count} / 80</td>
               </tr>
             ))}
           </tbody>

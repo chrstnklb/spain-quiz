@@ -17,16 +17,22 @@ export async function saveScore(row: ScoreRow): Promise<void> {
   if (error) throw error;
 }
 
-export async function loadHighscores(): Promise<{ player_name: string; total_points: number }[]> {
+export async function loadHighscores(): Promise<{ player_name: string; total_points: number; answered_count: number }[]> {
   const { data, error } = await supabase.from('scores').select('player_name, points');
   if (error) throw error;
 
-  const totals: Record<string, number> = {};
+  const totals: Record<string, { points: number; count: number }> = {};
   for (const row of data ?? []) {
-    totals[row.player_name] = (totals[row.player_name] ?? 0) + row.points;
+    if (!totals[row.player_name]) totals[row.player_name] = { points: 0, count: 0 };
+    totals[row.player_name].points += row.points;
+    totals[row.player_name].count += 1;
   }
 
   return Object.entries(totals)
-    .map(([player_name, total_points]) => ({ player_name, total_points }))
+    .map(([player_name, { points, count }]) => ({
+      player_name,
+      total_points: points,
+      answered_count: count,
+    }))
     .sort((a, b) => b.total_points - a.total_points);
 }
