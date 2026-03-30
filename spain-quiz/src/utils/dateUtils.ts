@@ -4,8 +4,14 @@ const VACATION_START = new Date('2026-03-30T00:00:00');
 const VACATION_END_DAY = 9; // day 9 = 26. April = Abschluss-Tag (kein Quiz)
 const QUIZ_DAYS = 8; // Tag 1–8 haben Fragen
 
+export function isPreviewMode(): boolean {
+  return new URLSearchParams(window.location.search).get('preview') === 'true';
+}
+
 export function getCurrentVacationDay(): VacationDay {
   const params = new URLSearchParams(window.location.search);
+  const preview = isPreviewMode();
+
   const dayParam = params.get('day');
   if (dayParam !== null) {
     const parsed = parseInt(dayParam, 10);
@@ -24,6 +30,7 @@ export function getCurrentVacationDay(): VacationDay {
   const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
   const day = diffDays + 1;
 
+  if (preview) return Math.max(1, Math.min(day, QUIZ_DAYS));
   if (day < 1) return 'before';
   if (day > VACATION_END_DAY) return 'after';
   return day;

@@ -1,6 +1,7 @@
 import { NamePrompt } from './components/NamePrompt';
 import { DayView } from './components/DayView';
 import { StatusScreen } from './components/StatusScreen';
+import { AdminView } from './components/AdminView';
 import { usePlayer } from './hooks/usePlayer';
 import { getCurrentVacationDay, isQuizDay, isFinaleDay, getMaxQuestionsPerDay } from './utils/dateUtils';
 import questions from './data/questions.json';
@@ -10,6 +11,11 @@ const allBundles = questions as DayBundle[];
 
 export default function App() {
   const { playerName, setPlayerName } = usePlayer();
+
+  if (window.location.pathname === '/admin') {
+    return <AdminView />;
+  }
+
   const vacationDay = getCurrentVacationDay();
 
   if (!playerName) {
