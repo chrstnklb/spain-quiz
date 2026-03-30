@@ -1,10 +1,17 @@
 import type { VacationDay } from '../types/quiz';
 
-const VACATION_START = new Date('2026-04-18T00:00:00');
+const VACATION_START = new Date('2026-03-18T00:00:00');
 const VACATION_END_DAY = 9; // day 9 = 26. April = Abschluss-Tag (kein Quiz)
 const QUIZ_DAYS = 8; // Tag 1–8 haben Fragen
 
 export function getCurrentVacationDay(): VacationDay {
+  const params = new URLSearchParams(window.location.search);
+  const dayParam = params.get('day');
+  if (dayParam !== null) {
+    const parsed = parseInt(dayParam, 10);
+    if (!isNaN(parsed)) return parsed as VacationDay;
+  }
+
   const today = new Date();
   const todayNormalized = new Date(today.getFullYear(), today.getMonth(), today.getDate());
   const startNormalized = new Date(
@@ -20,6 +27,14 @@ export function getCurrentVacationDay(): VacationDay {
   if (day < 1) return 'before';
   if (day > VACATION_END_DAY) return 'after';
   return day;
+}
+
+export function getMaxQuestionsPerDay(): number | null {
+  const params = new URLSearchParams(window.location.search);
+  const val = params.get('maxQuestions');
+  if (val === null) return null;
+  const parsed = parseInt(val, 10);
+  return isNaN(parsed) ? null : parsed;
 }
 
 export function isQuizDay(day: VacationDay): day is number {

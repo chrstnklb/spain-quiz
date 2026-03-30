@@ -2,7 +2,7 @@ import { NamePrompt } from './components/NamePrompt';
 import { DayView } from './components/DayView';
 import { StatusScreen } from './components/StatusScreen';
 import { usePlayer } from './hooks/usePlayer';
-import { getCurrentVacationDay, isQuizDay, isFinaleDay } from './utils/dateUtils';
+import { getCurrentVacationDay, isQuizDay, isFinaleDay, getMaxQuestionsPerDay } from './utils/dateUtils';
 import questions from './data/questions.json';
 import type { DayBundle } from './types/quiz';
 
@@ -27,9 +27,13 @@ export default function App() {
   if (isQuizDay(vacationDay)) {
     const bundle = allBundles.find(b => b.day === vacationDay);
     if (bundle) {
+      const maxQuestions = getMaxQuestionsPerDay();
+      const limitedBundle = maxQuestions
+        ? { ...bundle, questions: bundle.questions.slice(0, maxQuestions) }
+        : bundle;
       return (
         <div style={{ minHeight: '100vh', background: '#f8f8f8' }}>
-          <DayView bundle={bundle} playerName={playerName} />
+          <DayView bundle={limitedBundle} playerName={playerName} />
         </div>
       );
     }
