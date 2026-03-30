@@ -2,69 +2,69 @@
   {
     "day": 1,
     "date": "2026-04-18",
-    "title": "Ankunftstag",
+    "title": "Ankunftstag & Málaga",
     "questions": [
-      { "id": "d1q1", "type": "mc", "points": 1, "text": "Wie heißt die Hauptstadt Spaniens?", "options": ["Barcelona", "Madrid", "Sevilla", "Valencia"], "correctIndex": 1 },
+      { "id": "d1q1", "type": "mc", "points": 1, "text": "In welcher autonomen Gemeinschaft liegt Málaga?", "options": ["Murcia", "Andalusien", "Valencia", "Extremadura"], "correctIndex": 1 },
       { "id": "d1q2", "type": "mc", "points": 1, "text": "Welche Währung wird in Spanien verwendet?", "options": ["Peseta", "Peso", "Euro", "Franc"], "correctIndex": 2 },
-      { "id": "d1q3", "type": "mc", "points": 1, "text": "An welches Land grenzt Spanien im Nordwesten?", "options": ["Frankreich", "Portugal", "Andorra", "Marokko"], "correctIndex": 1 },
-      { "id": "d1q4", "type": "mc", "points": 1, "text": "Welches Meer liegt östlich von Spanien?", "options": ["Atlantik", "Nordsee", "Mittelmeer", "Adria"], "correctIndex": 2 },
-      { "id": "d1q5", "type": "mc", "points": 2, "text": "Welche Sprache wird in der Region Katalonien zusätzlich zu Spanisch gesprochen?", "options": ["Baskisch", "Galicisch", "Katalanisch", "Valencianisch"], "correctIndex": 2 },
-      { "id": "d1q6", "type": "mc", "points": 2, "text": "Wie heißt der König von Spanien (Stand 2026)?", "options": ["Juan Carlos I.", "Felipe VI.", "Alfonso XIII.", "Carlos III."], "correctIndex": 1 },
-      { "id": "d1q7", "type": "estimate", "points": 2, "text": "Wie viele Einwohner hat Spanien (in Millionen)?", "target": 47, "tolerance": 5, "unit": "Millionen" },
-      { "id": "d1q8", "type": "mc", "points": 2, "text": "Welches ist die größte autonome Gemeinschaft Spaniens nach Fläche?", "options": ["Kastilien-León", "Andalusien", "Kastilien-La Mancha", "Aragonien"], "correctIndex": 0 },
-      { "id": "d1q9", "type": "estimate", "points": 2, "text": "In welchem Jahr trat Spanien der EU bei?", "target": 1986, "tolerance": 2, "unit": "" },
-      { "id": "d1q10", "type": "estimate", "points": 4, "text": "Wie groß ist Spanien in km² (Toleranz ±30.000)?", "target": 506000, "tolerance": 30000, "unit": "km²" }
+      { "id": "d1q3", "type": "mc", "points": 1, "text": "Welches Meer liegt südlich von Málaga?", "options": ["Atlantik", "Nordsee", "Mittelmeer", "Adria"], "correctIndex": 2 },
+      { "id": "d1q4", "type": "mc", "points": 1, "text": "Welcher berühmte Künstler wurde in Málaga geboren?", "options": ["Salvador Dalí", "Joan Miró", "Pablo Picasso", "Francisco Goya"], "correctIndex": 2 },
+      { "id": "d1q5", "type": "mc", "points": 2, "text": "Wie heißt die maurische Festung hoch über Málaga?", "options": ["Alhambra", "Alcazaba", "Alcázar", "Giralda"], "correctIndex": 1 },
+      { "id": "d1q6", "type": "mc", "points": 2, "text": "Wie heißt der Flughafen von Málaga offiziell?", "options": ["Aeropuerto de Andalucía", "Aeropuerto Costa del Sol", "Aeropuerto Pablo Ruiz Picasso", "Aeropuerto del Sur"], "correctIndex": 2 },
+      { "id": "d1q7", "type": "estimate", "points": 2, "text": "Wie viele Einwohner hat die Stadt Málaga (gerundet auf 50.000)?", "target": 580000, "tolerance": 50000, "unit": "Einwohner" },
+      { "id": "d1q8", "type": "mc", "points": 2, "text": "Hat Deutschland oder Spanien mehr Einwohner?", "options": ["Deutschland", "Spanien", "Beide gleich viel", "Kommt auf das Jahr an"], "correctIndex": 0 },
+      { "id": "d1q9", "type": "estimate", "points": 2, "text": "Wie viele Sonnenstunden hat Málaga pro Jahr (gerundet auf 100)?", "target": 2900, "tolerance": 200, "unit": "Stunden" },
+      { "id": "d1q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer Autobahn hat Spanien (gerundet auf 1.000)? Deutschland hat ca. 13.000 km.", "target": 17000, "tolerance": 2000, "unit": "km" }
     ]
   },
   {
     "day": 2,
     "date": "2026-04-19",
-    "title": "Barcelona",
+    "title": "Costa del Sol",
     "questions": [
-      { "id": "d2q1", "type": "mc", "points": 1, "text": "Von welchem Architekten stammt die Sagrada Família?", "options": ["Pablo Picasso", "Salvador Dalí", "Antoni Gaudí", "Joan Miró"], "correctIndex": 2 },
-      { "id": "d2q2", "type": "mc", "points": 1, "text": "Wie heißt der berühmte Boulevard in Barcelona?", "options": ["Passeig de Gràcia", "Las Ramblas", "Avenida Diagonal", "Via Laietana"], "correctIndex": 1 },
-      { "id": "d2q3", "type": "mc", "points": 1, "text": "Welcher Fußballverein ist in Barcelona beheimatet?", "options": ["Real Madrid", "Atlético Madrid", "FC Barcelona", "Espanyol"], "correctIndex": 2 },
-      { "id": "d2q4", "type": "mc", "points": 1, "text": "Welches Olympia-Jahr war Barcelona Gastgeber?", "options": ["1988", "1992", "1996", "2000"], "correctIndex": 1 },
-      { "id": "d2q5", "type": "mc", "points": 2, "text": "Welcher Gaudí-Park ist ein UNESCO-Weltkulturerbe in Barcelona?", "options": ["Park Güell", "Park Ciutadella", "Montjuïc", "Tibidabo"], "correctIndex": 0 },
-      { "id": "d2q6", "type": "mc", "points": 2, "text": "In welcher autonomen Gemeinschaft liegt Barcelona?", "options": ["Aragonien", "Katalonien", "Valencia", "Murcia"], "correctIndex": 1 },
-      { "id": "d2q7", "type": "estimate", "points": 2, "text": "Wie viele Einwohner hat Barcelona (gerundet auf 100.000)?", "target": 1600000, "tolerance": 200000, "unit": "Einwohner" },
-      { "id": "d2q8", "type": "estimate", "points": 2, "text": "In welchem Jahr wurde mit dem Bau der Sagrada Família begonnen?", "target": 1882, "tolerance": 10, "unit": "" },
-      { "id": "d2q9", "type": "estimate", "points": 2, "text": "Wie hoch ist die Sagrada Família in Metern (fertiggestellt)?", "target": 172, "tolerance": 20, "unit": "Meter" },
-      { "id": "d2q10", "type": "estimate", "points": 4, "text": "Wie viele Türme wird die fertige Sagrada Família haben?", "target": 18, "tolerance": 1, "unit": "Türme" }
+      { "id": "d2q1", "type": "mc", "points": 1, "text": "Was bedeutet 'Costa del Sol' auf Deutsch?", "options": ["Goldküste", "Sonnenküste", "Wilde Küste", "Weiße Küste"], "correctIndex": 1 },
+      { "id": "d2q2", "type": "mc", "points": 1, "text": "Welche Stadt liegt westlich von Málaga direkt an der Costa del Sol?", "options": ["Nerja", "Torremolinos", "Marbella", "Fuengirola"], "correctIndex": 1 },
+      { "id": "d2q3", "type": "mc", "points": 1, "text": "Welcher Fußballclub kommt aus Málaga?", "options": ["FC Sevilla", "Málaga CF", "Real Betis", "Granada CF"], "correctIndex": 1 },
+      { "id": "d2q4", "type": "mc", "points": 1, "text": "Wie heißt die Altstadt von Málaga?", "options": ["El Born", "El Centro Histórico", "La Malagueta", "El Perchel"], "correctIndex": 1 },
+      { "id": "d2q5", "type": "mc", "points": 2, "text": "Welche Stadt an der Costa del Sol ist für ihre Luxusyachten und Reichen bekannt?", "options": ["Torremolinos", "Benalmádena", "Marbella", "Estepona"], "correctIndex": 2 },
+      { "id": "d2q6", "type": "mc", "points": 2, "text": "Ist die Costa del Sol länger oder kürzer als die deutsche Nordseeküste (ca. 450 km)?", "options": ["Länger", "Kürzer", "Gleich lang", "Die Costa del Sol hat keine Küstenlinie"], "correctIndex": 1 },
+      { "id": "d2q7", "type": "estimate", "points": 2, "text": "Wie lang ist die Costa del Sol in Kilometern?", "target": 150, "tolerance": 20, "unit": "km" },
+      { "id": "d2q8", "type": "estimate", "points": 2, "text": "Wie viele Touristen besucht die Costa del Sol pro Jahr (in Millionen)?", "target": 13, "tolerance": 3, "unit": "Millionen" },
+      { "id": "d2q9", "type": "mc", "points": 2, "text": "Welches berühmte Golfresort liegt an der Costa del Sol westlich von Marbella?", "options": ["Valderrama", "El Saler", "Real Club de Golf", "La Manga"], "correctIndex": 0 },
+      { "id": "d2q10", "type": "estimate", "points": 4, "text": "Wie viele deutsche Touristen besuchen Spanien pro Jahr (in Millionen, Toleranz ±2)?", "target": 12, "tolerance": 2, "unit": "Millionen" }
     ]
   },
   {
     "day": 3,
     "date": "2026-04-20",
-    "title": "Costa Brava",
+    "title": "Granada & Alhambra",
     "questions": [
-      { "id": "d3q1", "type": "mc", "points": 1, "text": "Was bedeutet 'Costa Brava' auf Deutsch?", "options": ["Goldküste", "Wilde Küste", "Sonnenküste", "Weiße Küste"], "correctIndex": 1 },
-      { "id": "d3q2", "type": "mc", "points": 1, "text": "In welcher autonomen Gemeinschaft liegt die Costa Brava?", "options": ["Valencianische Gemeinschaft", "Katalonien", "Murcia", "Andalusien"], "correctIndex": 1 },
-      { "id": "d3q3", "type": "mc", "points": 1, "text": "Welches Gebirge bildet die Grenze zwischen Spanien und Frankreich?", "options": ["Sierra Nevada", "Pyrenäen", "Kantabrisches Gebirge", "Picos de Europa"], "correctIndex": 1 },
-      { "id": "d3q4", "type": "mc", "points": 1, "text": "Welcher surreale Künstler wurde an der Costa Brava geboren?", "options": ["Joan Miró", "Antoni Gaudí", "Salvador Dalí", "Pablo Picasso"], "correctIndex": 2 },
-      { "id": "d3q5", "type": "mc", "points": 2, "text": "In welcher Stadt befindet sich das Dalí-Theater-Museum?", "options": ["Cadaqués", "Girona", "Figueres", "Lloret de Mar"], "correctIndex": 2 },
-      { "id": "d3q6", "type": "mc", "points": 2, "text": "Welche Stadt gilt als Hauptort der Costa Brava?", "options": ["Tarragona", "Girona", "Lleida", "Figueres"], "correctIndex": 1 },
-      { "id": "d3q7", "type": "estimate", "points": 2, "text": "Wie lang ist die Costa Brava in Kilometern?", "target": 214, "tolerance": 30, "unit": "km" },
-      { "id": "d3q8", "type": "estimate", "points": 2, "text": "Wie lang ist die Küstenlinie Spaniens in Kilometern?", "target": 4964, "tolerance": 500, "unit": "km" },
-      { "id": "d3q9", "type": "mc", "points": 2, "text": "Welches Mittelmeer-Land liegt nordöstlich von Spanien?", "options": ["Frankreich", "Italien", "Portugal", "Marokko"], "correctIndex": 0 },
-      { "id": "d3q10", "type": "estimate", "points": 4, "text": "Wie viele Touristen besucht Katalonien pro Jahr (in Millionen, Toleranz ±3)?", "target": 19, "tolerance": 3, "unit": "Millionen" }
+      { "id": "d3q1", "type": "mc", "points": 1, "text": "Wie heißt die berühmte maurische Palastanlage in Granada?", "options": ["Alcázar", "Alcazaba", "Alhambra", "Generalife"], "correctIndex": 2 },
+      { "id": "d3q2", "type": "mc", "points": 1, "text": "Welches Gebirge liegt direkt hinter Granada?", "options": ["Pyrenäen", "Sierra Nevada", "Picos de Europa", "Sierra Morena"], "correctIndex": 1 },
+      { "id": "d3q3", "type": "mc", "points": 1, "text": "Was bedeutet 'Alhambra' auf Arabisch?", "options": ["Weißes Schloss", "Rote Festung", "Goldener Palast", "Hoher Berg"], "correctIndex": 1 },
+      { "id": "d3q4", "type": "mc", "points": 1, "text": "Wie heißt der Gartenkomplex neben der Alhambra?", "options": ["Alcázar", "Realejo", "Generalife", "Albaicín"], "correctIndex": 2 },
+      { "id": "d3q5", "type": "mc", "points": 2, "text": "In welchem Jahr endete die maurische Herrschaft in Granada (Reconquista)?", "options": ["1391", "1492", "1512", "1556"], "correctIndex": 1 },
+      { "id": "d3q6", "type": "mc", "points": 2, "text": "Welches Stadtviertel in Granada ist für seine Höhlenwohnungen und Flamenco-Shows bekannt?", "options": ["Albaicín", "Sacromonte", "Realejo", "La Chana"], "correctIndex": 1 },
+      { "id": "d3q7", "type": "estimate", "points": 2, "text": "Wie hoch liegt Granada über dem Meeresspiegel (in Metern)?", "target": 690, "tolerance": 80, "unit": "Meter" },
+      { "id": "d3q8", "type": "estimate", "points": 2, "text": "Wie hoch ist der Mulhacén in der Sierra Nevada (höchster Berg des Festlands)?", "target": 3479, "tolerance": 150, "unit": "Meter" },
+      { "id": "d3q9", "type": "mc", "points": 2, "text": "Liegt die Zugspitze höher oder niedriger als der Mulhacén? (Zugspitze: 2.962 m)", "options": ["Höher", "Niedriger", "Gleich hoch", "Die Zugspitze liegt in Österreich"], "correctIndex": 1 },
+      { "id": "d3q10", "type": "estimate", "points": 4, "text": "Wie viele Besucher pro Jahr hat die Alhambra (in Millionen, Toleranz ±0,5)?", "target": 2.7, "tolerance": 0.5, "unit": "Millionen" }
     ]
   },
   {
     "day": 4,
     "date": "2026-04-21",
-    "title": "Valencia",
+    "title": "Sevilla",
     "questions": [
-      { "id": "d4q1", "type": "mc", "points": 1, "text": "Welches berühmte Reisgericht stammt aus Valencia?", "options": ["Gazpacho", "Paella", "Tortilla Española", "Patatas Bravas"], "correctIndex": 1 },
-      { "id": "d4q2", "type": "mc", "points": 1, "text": "Welches Fest ist Valencia weltweit bekannt?", "options": ["La Tomatina", "San Fermín", "Las Fallas", "Semana Santa"], "correctIndex": 2 },
-      { "id": "d4q3", "type": "mc", "points": 1, "text": "Welcher Fluss fließt durch Valencia?", "options": ["Ebro", "Turia", "Júcar", "Segura"], "correctIndex": 1 },
-      { "id": "d4q4", "type": "mc", "points": 1, "text": "Wann findet das Feuerfest Las Fallas jedes Jahr statt?", "options": ["Januar", "März", "Juni", "Oktober"], "correctIndex": 1 },
-      { "id": "d4q5", "type": "mc", "points": 2, "text": "Welches futuristische Kulturzentrum befindet sich in Valencia?", "options": ["Guggenheim Museum", "Ciudad de las Artes y las Ciencias", "Centro Botín", "MACBA"], "correctIndex": 1 },
-      { "id": "d4q6", "type": "mc", "points": 2, "text": "Welche Orangensorte ist besonders typisch für die Region Valencia?", "options": ["Navel", "Blutorange", "Valencia Late", "Clementine"], "correctIndex": 2 },
-      { "id": "d4q7", "type": "estimate", "points": 2, "text": "Wie viele Einwohner hat die Stadt Valencia (gerundet auf 100.000)?", "target": 800000, "tolerance": 100000, "unit": "Einwohner" },
-      { "id": "d4q8", "type": "estimate", "points": 2, "text": "Wie viele Kilometer liegt Valencia vom Mittelmeer entfernt?", "target": 3, "tolerance": 3, "unit": "km" },
-      { "id": "d4q9", "type": "mc", "points": 2, "text": "Welches Dokument aus dem Mittelalter wird im Stadtarchiv Valencia aufbewahrt?", "options": ["Magna Carta", "Llibre del Consolat de Mar", "Codex Sinaiticus", "Domesday Book"], "correctIndex": 1 },
-      { "id": "d4q10", "type": "estimate", "points": 4, "text": "In welchem Jahr wurde Valencia gegründet (römische Gründung, v. Chr.)?", "target": 138, "tolerance": 15, "unit": "v. Chr." }
+      { "id": "d4q1", "type": "mc", "points": 1, "text": "Welcher Fluss fließt durch Sevilla?", "options": ["Tajo", "Ebro", "Guadalquivir", "Duero"], "correctIndex": 2 },
+      { "id": "d4q2", "type": "mc", "points": 1, "text": "Wie heißt das Frühlingsfest in Sevilla?", "options": ["Las Fallas", "Feria de Abril", "La Tomatina", "San Fermín"], "correctIndex": 1 },
+      { "id": "d4q3", "type": "mc", "points": 1, "text": "Welches andalusische Gericht ist eine kalte Tomatensuppe?", "options": ["Salmorejo", "Gazpacho", "Ajoblanco", "Porra"], "correctIndex": 1 },
+      { "id": "d4q4", "type": "mc", "points": 1, "text": "Was bedeutet 'Tapas' ursprünglich auf Deutsch?", "options": ["Kleine Bissen", "Deckel", "Vorspeise", "Abendessen"], "correctIndex": 1 },
+      { "id": "d4q5", "type": "mc", "points": 2, "text": "Wie heißt die große Moschee-Kathedrale in Sevilla?", "options": ["Mezquita", "Giralda", "Catedral de Santa María", "Alcázar"], "correctIndex": 2 },
+      { "id": "d4q6", "type": "mc", "points": 2, "text": "In welcher Stadt wurde Christoph Kolumbus begraben?", "options": ["Huelva", "Cádiz", "Sevilla", "Córdoba"], "correctIndex": 2 },
+      { "id": "d4q7", "type": "estimate", "points": 2, "text": "Wie hoch ist der Glockenturm Giralda in Sevilla (in Metern)?", "target": 98, "tolerance": 10, "unit": "Meter" },
+      { "id": "d4q8", "type": "mc", "points": 2, "text": "Ist Sevilla größer oder kleiner als München (München: ca. 1,5 Mio. Einwohner)?", "options": ["Größer", "Kleiner", "Gleich groß", "Kommt auf die Stadtgrenzen an"], "correctIndex": 1 },
+      { "id": "d4q9", "type": "estimate", "points": 2, "text": "In welchem Jahr fand die Weltausstellung in Sevilla statt?", "target": 1992, "tolerance": 2, "unit": "" },
+      { "id": "d4q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer ist Sevilla von Málaga entfernt (Luftlinie, Toleranz ±20)?", "target": 165, "tolerance": 20, "unit": "km" }
     ]
   },
   {
@@ -72,67 +72,67 @@
     "date": "2026-04-22",
     "title": "Flamenco & Kultur",
     "questions": [
-      { "id": "d5q1", "type": "mc", "points": 1, "text": "Aus welcher Region Spaniens stammt der Flamenco ursprünglich?", "options": ["Katalonien", "Madrid", "Andalusien", "Kastilien"], "correctIndex": 2 },
+      { "id": "d5q1", "type": "mc", "points": 1, "text": "Aus welcher Region Spaniens stammt der Flamenco?", "options": ["Katalonien", "Madrid", "Andalusien", "Kastilien"], "correctIndex": 2 },
       { "id": "d5q2", "type": "mc", "points": 1, "text": "Welches Instrument ist typisch für den Flamenco?", "options": ["Violine", "Gitarre", "Mandoline", "Banjo"], "correctIndex": 1 },
-      { "id": "d5q3", "type": "mc", "points": 1, "text": "Wer schrieb den Roman 'Don Quijote'?", "options": ["Lope de Vega", "Federico García Lorca", "Miguel de Cervantes", "Francisco de Quevedo"], "correctIndex": 2 },
-      { "id": "d5q4", "type": "mc", "points": 1, "text": "Welcher spanische Maler schuf das Gemälde 'Guernica'?", "options": ["Francisco Goya", "El Greco", "Pablo Picasso", "Diego Velázquez"], "correctIndex": 2 },
-      { "id": "d5q5", "type": "mc", "points": 2, "text": "Welche Stadt gilt als Hauptstadt des Flamenco?", "options": ["Málaga", "Córdoba", "Sevilla", "Granada"], "correctIndex": 2 },
-      { "id": "d5q6", "type": "mc", "points": 2, "text": "Welcher spanische Regisseur drehte 'Alles über meine Mutter'?", "options": ["Carlos Saura", "Pedro Almodóvar", "Alejandro Amenábar", "Bigas Luna"], "correctIndex": 1 },
-      { "id": "d5q7", "type": "estimate", "points": 2, "text": "In welchem Jahr wurde Spanien Fußball-Weltmeister zum ersten Mal?", "target": 2010, "tolerance": 2, "unit": "" },
+      { "id": "d5q3", "type": "mc", "points": 1, "text": "Wer schrieb 'Don Quijote'?", "options": ["Lope de Vega", "García Lorca", "Miguel de Cervantes", "Francisco de Quevedo"], "correctIndex": 2 },
+      { "id": "d5q4", "type": "mc", "points": 1, "text": "Welcher Maler aus Málaga schuf das Gemälde 'Guernica'?", "options": ["Francisco Goya", "El Greco", "Pablo Picasso", "Diego Velázquez"], "correctIndex": 2 },
+      { "id": "d5q5", "type": "mc", "points": 2, "text": "Welcher Regisseur drehte 'Alles über meine Mutter' und stammt aus der Mancha?", "options": ["Carlos Saura", "Pedro Almodóvar", "Alejandro Amenábar", "Bigas Luna"], "correctIndex": 1 },
+      { "id": "d5q6", "type": "mc", "points": 2, "text": "Hat Spanien oder Deutschland mehr UNESCO-Weltkulturerbestätten (Stand 2024)?", "options": ["Spanien (ca. 50)", "Deutschland (ca. 52)", "Beide gleich viel", "Keines von beiden hat mehr als 40"], "correctIndex": 1 },
+      { "id": "d5q7", "type": "estimate", "points": 2, "text": "In welchem Jahr wurde Spanien Fußball-Weltmeister zum ersten Mal?", "target": 2010, "tolerance": 1, "unit": "" },
       { "id": "d5q8", "type": "estimate", "points": 2, "text": "Wie oft wurde Spanien Fußball-Europameister (Stand 2024)?", "target": 4, "tolerance": 1, "unit": "Mal" },
-      { "id": "d5q9", "type": "mc", "points": 2, "text": "Welcher spanische Opernsänger gilt als 'Stimme des Jahrhunderts'?", "options": ["Plácido Domingo", "José Carreras", "Alfredo Kraus", "Montserrat Caballé"], "correctIndex": 0 },
-      { "id": "d5q10", "type": "estimate", "points": 4, "text": "In welchem Jahr erschien der erste Teil von 'Don Quijote'?", "target": 1605, "tolerance": 5, "unit": "" }
+      { "id": "d5q9", "type": "mc", "points": 2, "text": "Welche Stadt ist Heimat des Prado-Museums?", "options": ["Barcelona", "Sevilla", "Madrid", "Valencia"], "correctIndex": 2 },
+      { "id": "d5q10", "type": "estimate", "points": 4, "text": "Wie viele Einwohner hat Andalusien (in Millionen, Toleranz ±0,5)?", "target": 8.5, "tolerance": 0.5, "unit": "Millionen" }
     ]
   },
   {
     "day": 6,
     "date": "2026-04-23",
-    "title": "Sevilla & Andalusien",
+    "title": "Ronda & Weißes Dorf",
     "questions": [
-      { "id": "d6q1", "type": "mc", "points": 1, "text": "Wie heißt die berühmte maurische Palastanlage in Granada?", "options": ["Alcázar", "Alhambra", "Mezquita", "Generalife"], "correctIndex": 1 },
-      { "id": "d6q2", "type": "mc", "points": 1, "text": "Welcher Fluss fließt durch Sevilla?", "options": ["Tajo", "Ebro", "Guadalquivir", "Duero"], "correctIndex": 2 },
-      { "id": "d6q3", "type": "mc", "points": 1, "text": "Welches andalusische Gericht ist eine kalte Gemüsesuppe?", "options": ["Salmorejo", "Gazpacho", "Ajo blanco", "Porra"], "correctIndex": 1 },
-      { "id": "d6q4", "type": "mc", "points": 1, "text": "Was bedeutet 'Tapas' auf Deutsch ursprünglich?", "options": ["Kleine Bissen", "Deckel", "Vorspeise", "Abendessen"], "correctIndex": 1 },
-      { "id": "d6q5", "type": "mc", "points": 2, "text": "Wie heißt die große Moschee in Córdoba?", "options": ["Alhambra", "Alcázar", "Mezquita", "Giralda"], "correctIndex": 2 },
-      { "id": "d6q6", "type": "mc", "points": 2, "text": "In welcher Stadt wurde Christoph Kolumbus begraben?", "options": ["Huelva", "Cádiz", "Sevilla", "Córdoba"], "correctIndex": 2 },
-      { "id": "d6q7", "type": "mc", "points": 2, "text": "Wie heißt das jährliche Frühlingsfest in Sevilla?", "options": ["Las Fallas", "Feria de Abril", "La Tomatina", "San Fermín"], "correctIndex": 1 },
-      { "id": "d6q8", "type": "estimate", "points": 2, "text": "Wie hoch ist die Giralda in Sevilla in Metern?", "target": 98, "tolerance": 15, "unit": "Meter" },
-      { "id": "d6q9", "type": "estimate", "points": 2, "text": "In welchem Jahr fand die Weltausstellung in Sevilla statt?", "target": 1992, "tolerance": 2, "unit": "" },
-      { "id": "d6q10", "type": "estimate", "points": 4, "text": "Wie viele Jahre war Andalusien unter maurischer Herrschaft (gerundet auf 50)?", "target": 800, "tolerance": 50, "unit": "Jahre" }
+      { "id": "d6q1", "type": "mc", "points": 1, "text": "Wie nennt man die typischen weiß getünchten Dörfer in Andalusien?", "options": ["Pueblos Rojos", "Pueblos Blancos", "Pueblos Viejos", "Pueblos Altos"], "correctIndex": 1 },
+      { "id": "d6q2", "type": "mc", "points": 1, "text": "Wie heißt die spektakuläre Schlucht, über die Ronda gebaut ist?", "options": ["El Tajo", "El Cañón", "La Garganta", "El Barranco"], "correctIndex": 0 },
+      { "id": "d6q3", "type": "mc", "points": 1, "text": "Welcher Schriftsteller besang Ronda in seinen Werken und besuchte die Stadt oft?", "options": ["Ernest Hemingway", "Rainer Maria Rilke", "Gabriel García Márquez", "Beide A und B"], "correctIndex": 3 },
+      { "id": "d6q4", "type": "mc", "points": 1, "text": "Wie heißt die alte Stierkampfarena in Ronda — eine der ältesten Spaniens?", "options": ["Plaza de Toros de la Maestranza", "Plaza de Toros de Ronda", "Real Maestranza de Ronda", "Plaza Mayor"], "correctIndex": 2 },
+      { "id": "d6q5", "type": "mc", "points": 2, "text": "Wie heißt die berühmte Brücke über den Tajo in Ronda?", "options": ["Puente Romano", "Puente Nuevo", "Puente Viejo", "Puente Árabe"], "correctIndex": 1 },
+      { "id": "d6q6", "type": "mc", "points": 2, "text": "Wie weit liegt Ronda von Málaga entfernt (Fahrtstrecke)?", "options": ["Ca. 50 km", "Ca. 100 km", "Ca. 150 km", "Ca. 200 km"], "correctIndex": 1 },
+      { "id": "d6q7", "type": "estimate", "points": 2, "text": "Wie hoch liegt Ronda über dem Meeresspiegel (in Metern)?", "target": 750, "tolerance": 80, "unit": "Meter" },
+      { "id": "d6q8", "type": "estimate", "points": 2, "text": "In welchem Jahrhundert wurde die Puente Nuevo in Ronda fertiggestellt (18xx)?", "target": 1793, "tolerance": 20, "unit": "" },
+      { "id": "d6q9", "type": "mc", "points": 2, "text": "Gibt es in Deutschland eine Stadt, die ähnlich spektakulär auf einem Felsen über einer Schlucht gebaut ist?", "options": ["Ja, Rothenburg ob der Tauber", "Ja, Blaubeuren", "Nein, so etwas gibt es in Deutschland nicht", "Ja, Königstein im Taunus"], "correctIndex": 3 },
+      { "id": "d6q10", "type": "estimate", "points": 4, "text": "Wie viele Pueblos Blancos (Weiße Dörfer) gibt es in Andalusien offiziell (Toleranz ±10)?", "target": 19, "tolerance": 10, "unit": "Dörfer" }
     ]
   },
   {
     "day": 7,
     "date": "2026-04-24",
-    "title": "Natur & Geographie",
+    "title": "Natur & Vergleiche",
     "questions": [
-      { "id": "d7q1", "type": "mc", "points": 1, "text": "Welches ist das höchste Gebirge auf dem spanischen Festland?", "options": ["Pyrenäen", "Sierra Nevada", "Kantabrisches Gebirge", "Sistema Ibérico"], "correctIndex": 1 },
-      { "id": "d7q2", "type": "mc", "points": 1, "text": "Welche Inselgruppe gehört zu Spanien und liegt vor der afrikanischen Küste?", "options": ["Balearen", "Kanarische Inseln", "Azoren", "Madeira"], "correctIndex": 1 },
-      { "id": "d7q3", "type": "mc", "points": 1, "text": "Welche Meerenge trennt Spanien von Afrika?", "options": ["Straße von Messina", "Straße von Gibraltar", "Straße von Sizilien", "Straße von Korsika"], "correctIndex": 1 },
-      { "id": "d7q4", "type": "mc", "points": 1, "text": "Welches spanische Gebiet liegt auf dem afrikanischen Kontinent?", "options": ["Gibraltar", "Ceuta", "Melilla", "Ceuta und Melilla"], "correctIndex": 3 },
-      { "id": "d7q5", "type": "mc", "points": 2, "text": "Welcher Fluss ist der längste Spaniens?", "options": ["Tajo", "Ebro", "Duero", "Guadalquivir"], "correctIndex": 1 },
-      { "id": "d7q6", "type": "mc", "points": 2, "text": "Wie heißt die Hochebene im Zentrum Spaniens?", "options": ["Extremadura", "Meseta", "La Mancha", "Castilla"], "correctIndex": 1 },
+      { "id": "d7q1", "type": "mc", "points": 1, "text": "Welches Gebirge liegt direkt hinter Málaga im Norden?", "options": ["Sierra Nevada", "Montes de Málaga", "Sierra de Grazalema", "Sierra Morena"], "correctIndex": 1 },
+      { "id": "d7q2", "type": "mc", "points": 1, "text": "Welche Meerenge trennt Spanien von Marokko?", "options": ["Straße von Messina", "Straße von Gibraltar", "Straße von Sizilien", "Straße von Bonifacio"], "correctIndex": 1 },
+      { "id": "d7q3", "type": "mc", "points": 1, "text": "Welcher Fluss ist länger — der Rhein oder der Ebro?", "options": ["Rhein (1.230 km)", "Ebro (930 km)", "Beide gleich lang", "Kommt auf die Messung an"], "correctIndex": 0 },
+      { "id": "d7q4", "type": "mc", "points": 1, "text": "Ist Spanien größer oder kleiner als Deutschland?", "options": ["Größer (ca. 506.000 km²)", "Kleiner (ca. 357.000 km²)", "Gleich groß", "Deutschland ist größer"], "correctIndex": 0 },
+      { "id": "d7q5", "type": "mc", "points": 2, "text": "Welches spanische Gebiet liegt auf dem afrikanischen Kontinent?", "options": ["Gibraltar", "Ceuta", "Melilla", "Ceuta und Melilla"], "correctIndex": 3 },
+      { "id": "d7q6", "type": "mc", "points": 2, "text": "Hat der Bodensee eine größere oder kleinere Fläche als der Stausee Embalse de la Viñuela bei Málaga?", "options": ["Bodensee ist viel größer", "Beide gleich groß", "Viñuela ist größer", "Kaum ein Unterschied"], "correctIndex": 0 },
       { "id": "d7q7", "type": "estimate", "points": 2, "text": "Wie hoch ist der Teide auf Teneriffa in Metern?", "target": 3715, "tolerance": 150, "unit": "Meter" },
-      { "id": "d7q8", "type": "estimate", "points": 2, "text": "Wie hoch ist der Mulhacén, der höchste Berg des Festlands, in Metern?", "target": 3479, "tolerance": 200, "unit": "Meter" },
-      { "id": "d7q9", "type": "mc", "points": 2, "text": "Wie viele Nationalparks gibt es in Spanien?", "options": ["9", "12", "16", "21"], "correctIndex": 2 },
-      { "id": "d7q10", "type": "estimate", "points": 4, "text": "Wie breit ist die Straße von Gibraltar an der schmalsten Stelle in Kilometern?", "target": 14, "tolerance": 3, "unit": "km" }
+      { "id": "d7q8", "type": "estimate", "points": 2, "text": "Wie breit ist die Straße von Gibraltar an der schmalsten Stelle (in km)?", "target": 14, "tolerance": 3, "unit": "km" },
+      { "id": "d7q9", "type": "mc", "points": 2, "text": "Wie viele Nationalparks hat Spanien — mehr oder weniger als Deutschland (16)?", "options": ["Mehr (16 in Spanien)", "Weniger (16 in Deutschland, Spanien hat weniger)", "Beide haben 16", "Spanien hat gar keine Nationalparks"], "correctIndex": 0 },
+      { "id": "d7q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer ist Afrika von der Küste bei Málaga entfernt (Luftlinie, Toleranz ±10)?", "target": 130, "tolerance": 15, "unit": "km" }
     ]
   },
   {
     "day": 8,
     "date": "2026-04-25",
-    "title": "Letzter Quiztag",
+    "title": "Quiz-Finale",
     "questions": [
       { "id": "d8q1", "type": "mc", "points": 1, "text": "Wie lautet der spanische Begriff für 'Prost'?", "options": ["Saúde", "Cin Cin", "Salud", "Skål"], "correctIndex": 2 },
-      { "id": "d8q2", "type": "mc", "points": 1, "text": "Welches spanische Gericht besteht aus Ei und Kartoffeln?", "options": ["Paella", "Gazpacho", "Tortilla Española", "Fabada"], "correctIndex": 2 },
+      { "id": "d8q2", "type": "mc", "points": 1, "text": "Welches spanische Wort bezeichnet die Mittagsruhe?", "options": ["Fiesta", "Siesta", "Corrida", "Tertulia"], "correctIndex": 1 },
       { "id": "d8q3", "type": "mc", "points": 1, "text": "Wie heißt der berühmte Jakobsweg auf Spanisch?", "options": ["Ruta de la Plata", "Camino de Santiago", "Via Augusta", "Camino Real"], "correctIndex": 1 },
-      { "id": "d8q4", "type": "mc", "points": 1, "text": "Welches spanische Wort bezeichnet die Mittagsruhe?", "options": ["Fiesta", "Siesta", "Corrida", "Tertulia"], "correctIndex": 1 },
-      { "id": "d8q5", "type": "mc", "points": 2, "text": "Welches ist das meistbesuchte Museum Spaniens?", "options": ["Museu Picasso", "Museo Thyssen", "Museo del Prado", "Guggenheim Bilbao"], "correctIndex": 2 },
+      { "id": "d8q4", "type": "mc", "points": 1, "text": "Welches spanische Gericht besteht aus Ei und Kartoffeln?", "options": ["Paella", "Gazpacho", "Tortilla Española", "Fabada"], "correctIndex": 2 },
+      { "id": "d8q5", "type": "mc", "points": 2, "text": "Hat Spanien oder Deutschland mehr Autobahn pro Einwohner?", "options": ["Spanien", "Deutschland", "Beide gleich viel", "Keines von beiden hat Autobahn"], "correctIndex": 0 },
       { "id": "d8q6", "type": "mc", "points": 2, "text": "Welche Stadt war die erste Hauptstadt Spaniens?", "options": ["Toledo", "Burgos", "Valladolid", "Segovia"], "correctIndex": 0 },
       { "id": "d8q7", "type": "mc", "points": 2, "text": "Wie heißt die spanische Nationalhymne?", "options": ["Himno de Riego", "La Marcha Real", "La Paloma", "Cara al Sol"], "correctIndex": 1 },
       { "id": "d8q8", "type": "estimate", "points": 2, "text": "Wie viele Millionen Touristen besucht Spanien pro Jahr (Stand 2023)?", "target": 85, "tolerance": 10, "unit": "Millionen" },
       { "id": "d8q9", "type": "estimate", "points": 2, "text": "Wie viele Kilometer ist der Camino Francés (klassischer Jakobsweg) lang?", "target": 780, "tolerance": 50, "unit": "km" },
-      { "id": "d8q10", "type": "estimate", "points": 4, "text": "Wie viele UNESCO-Weltkulturerbestätten hat Spanien (Stand 2024)?", "target": 50, "tolerance": 5, "unit": "" }
+      { "id": "d8q10", "type": "estimate", "points": 4, "text": "Wie viele Tage Urlaub haben Spanier im Jahr gesetzlich mindestens? Deutschland hat 20 Werktage.", "target": 22, "tolerance": 2, "unit": "Werktage" }
     ]
   }
 ]

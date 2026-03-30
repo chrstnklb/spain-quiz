@@ -8,9 +8,10 @@ import { useQuizState } from '../hooks/useQuizState';
 interface Props {
   bundle: DayBundle;
   playerName: string;
+  onShowHistory: () => void;
 }
 
-export function DayView({ bundle, playerName }: Props) {
+export function DayView({ bundle, playerName, onShowHistory }: Props) {
   const { isAnswered, getPoints, submitAnswer, getDayScore, getDayAnsweredCount, saveError, setSaveError } =
     useQuizState(playerName);
 
@@ -63,9 +64,10 @@ export function DayView({ bundle, playerName }: Props) {
           <div style={styles.dayLabel}>Tag {bundle.day}</div>
           <h1 style={styles.title}>{bundle.title}</h1>
         </div>
-        <button style={styles.highscoreBtn} onClick={() => setShowHighscore(true)}>
-          🏆
-        </button>
+        <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <button style={styles.highscoreBtn} onClick={onShowHistory} title="Vergangene Tage">📅</button>
+          <button style={styles.highscoreBtn} onClick={() => setShowHighscore(true)} title="Highscore">🏆</button>
+        </div>
       </div>
 
       <div style={styles.progressRow}>

@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import { NamePrompt } from './components/NamePrompt';
 import { DayView } from './components/DayView';
 import { StatusScreen } from './components/StatusScreen';
 import { AdminView } from './components/AdminView';
+import { HistoryView } from './components/HistoryView';
 import { usePlayer } from './hooks/usePlayer';
 import { getCurrentVacationDay, isQuizDay, isFinaleDay, getMaxQuestionsPerDay } from './utils/dateUtils';
 import questions from './data/questions.json';
@@ -11,6 +13,7 @@ const allBundles = questions as DayBundle[];
 
 export default function App() {
   const { playerName, setPlayerName } = usePlayer();
+  const [showHistory, setShowHistory] = useState(false);
 
   if (window.location.pathname === '/admin') {
     return <AdminView />;
@@ -20,6 +23,14 @@ export default function App() {
 
   if (!playerName) {
     return <NamePrompt onSubmit={setPlayerName} />;
+  }
+
+  if (showHistory) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#f8f8f8' }}>
+        <HistoryView playerName={playerName} onBack={() => setShowHistory(false)} />
+      </div>
+    );
   }
 
   if (vacationDay === 'before') {
@@ -39,7 +50,7 @@ export default function App() {
         : bundle;
       return (
         <div style={{ minHeight: '100vh', background: '#f8f8f8' }}>
-          <DayView bundle={limitedBundle} playerName={playerName} />
+          <DayView bundle={limitedBundle} playerName={playerName} onShowHistory={() => setShowHistory(true)} />
         </div>
       );
     }

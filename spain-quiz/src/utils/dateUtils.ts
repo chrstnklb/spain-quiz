@@ -1,6 +1,6 @@
 import type { VacationDay } from '../types/quiz';
 
-const VACATION_START = new Date('2026-03-30T00:00:00');
+const VACATION_START = new Date('2026-04-18T00:00:00');
 const VACATION_END_DAY = 9; // day 9 = 26. April = Abschluss-Tag (kein Quiz)
 const QUIZ_DAYS = 8; // Tag 1–8 haben Fragen
 
