@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C c:/Users/cdreibach/Desktop/bmad status)",
+      "Bash(git -C c:/Users/cdreibach/Desktop/bmad rev-parse HEAD)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(ls c:/Users/cdreibach/Desktop/bmad/spain-quiz/.env*)",
+      "Bash(printf 'VITE_SUPABASE_URL=https://lpnuuwdvgzhgfnworflh.supabase.co\\\\nVITE_SUPABASE_ANON_KEY=sb_publishable_SZfG9o1mMqgAIIovNlcLKA_I735CU84\\\\n')",
+      "Bash(git -C c:/Users/cdreibach/Desktop/bmad rev-parse --show-toplevel)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\cdreibach\\.git"
+    ]
+  }
+}
