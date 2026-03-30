@@ -1,0 +1,256 @@
+[
+  {
+    "day": 1,
+    "date": "2026-04-18",
+    "title": "Ankunftstag",
+    "questions": [
+      {
+        "id": "d1q1",
+        "type": "mc",
+        "text": "Wie heißt die Hauptstadt Spaniens?",
+        "options": ["Barcelona", "Madrid", "Sevilla", "Valencia"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d1q2",
+        "type": "mc",
+        "text": "Welche Sprache wird in der Region Katalonien zusätzlich zu Spanisch gesprochen?",
+        "options": ["Baskisch", "Galicisch", "Katalanisch", "Valencianisch"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d1q3",
+        "type": "estimate",
+        "text": "Wie viele Einwohner hat Spanien (in Millionen)?",
+        "target": 47,
+        "tolerance": 5,
+        "unit": "Millionen"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-04-19",
+    "title": "Barcelona",
+    "questions": [
+      {
+        "id": "d2q1",
+        "type": "mc",
+        "text": "Von welchem Architekten stammt die Sagrada Família?",
+        "options": ["Pablo Picasso", "Salvador Dalí", "Antoni Gaudí", "Joan Miró"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d2q2",
+        "type": "estimate",
+        "text": "In welchem Jahr wurde mit dem Bau der Sagrada Família begonnen?",
+        "target": 1882,
+        "tolerance": 10,
+        "unit": ""
+      },
+      {
+        "id": "d2q3",
+        "type": "mc",
+        "text": "Wie heißt der berühmte Boulevard in Barcelona?",
+        "options": ["Passeig de Gràcia", "Las Ramblas", "Avenida Diagonal", "Via Laietana"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d2q4",
+        "type": "estimate",
+        "text": "Wie hoch ist die Sagrada Família in Metern (fertiggestellt)?",
+        "target": 172,
+        "tolerance": 20,
+        "unit": "Meter"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-04-20",
+    "title": "Costa Brava",
+    "questions": [
+      {
+        "id": "d3q1",
+        "type": "mc",
+        "text": "In welcher autonomen Gemeinschaft liegt die Costa Brava?",
+        "options": ["Valencianische Gemeinschaft", "Katalonien", "Murcia", "Andalusien"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d3q2",
+        "type": "mc",
+        "text": "Welches Mittelmeer-Land liegt östlich von Spanien?",
+        "options": ["Frankreich", "Italien", "Portugal", "Marokko"],
+        "correctIndex": 0
+      },
+      {
+        "id": "d3q3",
+        "type": "estimate",
+        "text": "Wie lang ist die Küstenlinie Spaniens in Kilometern (gerundet)?",
+        "target": 4964,
+        "tolerance": 500,
+        "unit": "km"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "date": "2026-04-21",
+    "title": "Valencia",
+    "questions": [
+      {
+        "id": "d4q1",
+        "type": "mc",
+        "text": "Welches berühmte Reisgericht stammt aus Valencia?",
+        "options": ["Gazpacho", "Paella", "Tortilla Española", "Patatas Bravas"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d4q2",
+        "type": "estimate",
+        "text": "Wie viele Einwohner hat die Stadt Valencia (gerundet auf 100.000)?",
+        "target": 800000,
+        "tolerance": 100000,
+        "unit": "Einwohner"
+      },
+      {
+        "id": "d4q3",
+        "type": "mc",
+        "text": "Welches futuristische Kulturzentrum befindet sich in Valencia?",
+        "options": ["Guggenheim Museum", "Ciudad de las Artes y las Ciencias", "Centro Botín", "MACBA"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "date": "2026-04-22",
+    "title": "Flamenco & Kultur",
+    "questions": [
+      {
+        "id": "d5q1",
+        "type": "mc",
+        "text": "Aus welcher Region Spaniens stammt der Flamenco ursprünglich?",
+        "options": ["Katalonien", "Madrid", "Andalusien", "Kastilien"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d5q2",
+        "type": "mc",
+        "text": "Welcher spanische Maler schuf das Gemälde 'Guernica'?",
+        "options": ["Francisco Goya", "El Greco", "Pablo Picasso", "Diego Velázquez"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d5q3",
+        "type": "estimate",
+        "text": "In welchem Jahr wurde Spanien Fußball-Weltmeister zum ersten Mal?",
+        "target": 2010,
+        "tolerance": 2,
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-04-23",
+    "title": "Sevilla & Andalusien",
+    "questions": [
+      {
+        "id": "d6q1",
+        "type": "mc",
+        "text": "Wie heißt die berühmte maurische Palastanlage in Granada?",
+        "options": ["Alcázar", "Alhambra", "Mezquita", "Generalife"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d6q2",
+        "type": "estimate",
+        "text": "Wie hoch ist die Giralda in Sevilla in Metern?",
+        "target": 98,
+        "tolerance": 15,
+        "unit": "Meter"
+      },
+      {
+        "id": "d6q3",
+        "type": "mc",
+        "text": "Welcher Fluss fließt durch Sevilla?",
+        "options": ["Tajo", "Ebro", "Guadalquivir", "Duero"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d6q4",
+        "type": "mc",
+        "text": "Was bedeutet 'Tapas' auf Deutsch ursprünglich?",
+        "options": ["Kleine Bissen", "Deckel", "Vorspeise", "Abendessen"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "2026-04-24",
+    "title": "Natur & Geographie",
+    "questions": [
+      {
+        "id": "d7q1",
+        "type": "mc",
+        "text": "Welches ist das höchste Gebirge auf dem spanischen Festland?",
+        "options": ["Pyrenäen", "Sierra Nevada", "Kantabrisches Gebirge", "Sistema Ibérico"],
+        "correctIndex": 1
+      },
+      {
+        "id": "d7q2",
+        "type": "estimate",
+        "text": "Wie hoch ist der Mulhacén, der höchste Berg des spanischen Festlands, in Metern?",
+        "target": 3479,
+        "tolerance": 200,
+        "unit": "Meter"
+      },
+      {
+        "id": "d7q3",
+        "type": "mc",
+        "text": "Welche Inselgruppe gehört zu Spanien und liegt vor der afrikanischen Küste?",
+        "options": ["Balearen", "Kanarische Inseln", "Azoren", "Madeira"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "date": "2026-04-25",
+    "title": "Letzter Quiztag",
+    "questions": [
+      {
+        "id": "d8q1",
+        "type": "mc",
+        "text": "Wie lautet der spanische Begriff für 'Prost'?",
+        "options": ["Saúde", "Cin Cin", "Salud", "Skål"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d8q2",
+        "type": "estimate",
+        "text": "Wie viele UNESCO-Weltkulturerbestätten hat Spanien (Stand 2024)?",
+        "target": 50,
+        "tolerance": 8,
+        "unit": ""
+      },
+      {
+        "id": "d8q3",
+        "type": "mc",
+        "text": "Welches ist das meistbesuchte Museum Spaniens?",
+        "options": ["Museu Picasso", "Museo Thyssen", "Museo del Prado", "Guggenheim Bilbao"],
+        "correctIndex": 2
+      },
+      {
+        "id": "d8q4",
+        "type": "mc",
+        "text": "Wie heißt die spanische Nationalhymne?",
+        "options": ["Himno de Riego", "La Marcha Real", "La Paloma", "Cara al Sol"],
+        "correctIndex": 1
+      }
+    ]
+  }
+]
