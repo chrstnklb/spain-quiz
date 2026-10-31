@@ -11,8 +11,8 @@ export function StatusScreen({ type }: Props) {
         <div style={styles.card}>
           <div style={styles.emoji}>⏳</div>
           <h1 style={styles.title}>Bald geht's los!</h1>
-          <p style={styles.text}>Das España Quiz startet am <strong>18. April 2026</strong>.</p>
-          <p style={styles.text}>Bis dahin schon mal auf gute Fahrt! 🚗</p>
+          <p style={styles.text}>Das Malta Quiz startet am <strong>31. Oktober 2026</strong>.</p>
+          <p style={styles.text}>Bis dahin schon mal auf guten Flug! ✈️</p>
         </div>
       </div>
     );
@@ -28,7 +28,7 @@ export function StatusScreen({ type }: Props) {
         <p style={styles.text}>
           {type === 'finale'
             ? 'Kein neues Quiz heute — schaut wer gewonnen hat! 🥇'
-            : 'Danke für eine tolle Reise durch Spanien. Hier das Endergebnis:'}
+            : 'Danke für eine tolle Reise durch Malta. Hier das Endergebnis:'}
         </p>
         <HighscoreView />
       </div>
@@ -42,7 +42,7 @@ const styles: Record<string, React.CSSProperties> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: 'linear-gradient(135deg, #c60b1e 0%, #f1bf00 100%)',
+    background: 'linear-gradient(135deg, #b32234 0%, #ffffff 100%)',
     padding: '1rem',
   },
   card: {
