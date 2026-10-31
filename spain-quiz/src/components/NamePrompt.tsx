@@ -16,8 +16,8 @@ export function NamePrompt({ onSubmit }: Props) {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <div style={styles.emoji}>🇪🇸</div>
-        <h1 style={styles.title}>España Quiz</h1>
+        <div style={styles.emoji}>🇲🇹</div>
+        <h1 style={styles.title}>Malta Quiz</h1>
         <p style={styles.subtitle}>Willkommen! Gib deinen Namen ein um zu starten.</p>
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
@@ -44,7 +44,7 @@ const styles: Record<string, React.CSSProperties> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: 'linear-gradient(135deg, #c60b1e 0%, #f1bf00 100%)',
+    background: 'linear-gradient(135deg, #b32234 0%, #ffffff 100%)',
     padding: '1rem',
   },
   card: {
