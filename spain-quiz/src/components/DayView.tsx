@@ -115,14 +115,14 @@ const styles: Record<string, React.CSSProperties> = {
   container: { maxWidth: '600px', margin: '0 auto', padding: '1rem' },
   header: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' },
   dayLabel: { fontSize: '0.85rem', color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' },
-  title: { margin: '0.25rem 0 0', fontSize: '1.5rem', color: '#c60b1e' },
+  title: { margin: '0.25rem 0 0', fontSize: '1.5rem', color: '#b32234' },
   highscoreBtn: {
     background: 'none', border: '1px solid #ddd', borderRadius: '0.5rem',
     padding: '0.5rem 0.75rem', cursor: 'pointer', fontSize: '1.2rem',
   },
   progressRow: { display: 'flex', justifyContent: 'space-between', marginBottom: '0.25rem' },
   progress: { height: '6px', background: '#f0f0f0', borderRadius: '3px', marginBottom: '1.25rem' },
-  progressBar: { height: '100%', background: '#c60b1e', borderRadius: '3px', transition: 'width 0.3s' },
+  progressBar: { height: '100%', background: '#b32234', borderRadius: '3px', transition: 'width 0.3s' },
   progressText: { fontSize: '0.85rem', color: '#888' },
   errorBanner: {
     background: '#f8d7da', color: '#721c24', padding: '0.75rem 1rem',
@@ -135,9 +135,9 @@ const styles: Record<string, React.CSSProperties> = {
     flex: 1, padding: '0.75rem', border: '1px solid #ddd', borderRadius: '0.5rem',
     background: '#f5f5f5', cursor: 'pointer', fontSize: '0.95rem',
   },
-  navBtnPrimary: { background: '#c60b1e', color: 'white', border: 'none', fontWeight: 'bold' },
+  navBtnPrimary: { background: '#b32234', color: 'white', border: 'none', fontWeight: 'bold' },
   backBtn: {
-    background: 'none', border: 'none', color: '#c60b1e', cursor: 'pointer',
+    background: 'none', border: 'none', color: '#b32234', cursor: 'pointer',
     fontSize: '0.95rem', marginBottom: '1rem', padding: 0,
   },
 };
