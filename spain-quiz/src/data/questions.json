@@ -1,138 +1,751 @@
 [
   {
     "day": 1,
-    "date": "2026-04-18",
-    "title": "Ankunftstag & Málaga",
+    "date": "2026-10-31",
+    "title": "Willkommen auf Malta",
     "questions": [
-      { "id": "d1q1", "type": "mc", "points": 1, "text": "In welcher autonomen Gemeinschaft liegt Málaga?", "options": ["Murcia", "Andalusien", "Valencia", "Extremadura"], "correctIndex": 1 },
-      { "id": "d1q2", "type": "mc", "points": 1, "text": "Welche Währung wird in Spanien verwendet?", "options": ["Peseta", "Peso", "Euro", "Franc"], "correctIndex": 2 },
-      { "id": "d1q3", "type": "mc", "points": 1, "text": "Welches Meer liegt südlich von Málaga?", "options": ["Atlantik", "Nordsee", "Mittelmeer", "Adria"], "correctIndex": 2 },
-      { "id": "d1q4", "type": "mc", "points": 1, "text": "Welcher berühmte Künstler wurde in Málaga geboren?", "options": ["Salvador Dalí", "Joan Miró", "Pablo Picasso", "Francisco Goya"], "correctIndex": 2 },
-      { "id": "d1q5", "type": "mc", "points": 2, "text": "Wie heißt die maurische Festung hoch über Málaga?", "options": ["Alhambra", "Alcazaba", "Alcázar", "Giralda"], "correctIndex": 1 },
-      { "id": "d1q6", "type": "mc", "points": 2, "text": "Wie heißt der Flughafen von Málaga offiziell?", "options": ["Aeropuerto de Andalucía", "Aeropuerto Costa del Sol", "Aeropuerto Pablo Ruiz Picasso", "Aeropuerto del Sur"], "correctIndex": 2 },
-      { "id": "d1q7", "type": "estimate", "points": 2, "text": "Wie viele Einwohner hat die Stadt Málaga (gerundet auf 50.000)?", "target": 580000, "tolerance": 50000, "unit": "Einwohner" },
-      { "id": "d1q8", "type": "mc", "points": 2, "text": "Hat Deutschland oder Spanien mehr Einwohner?", "options": ["Deutschland", "Spanien", "Beide gleich viel", "Kommt auf das Jahr an"], "correctIndex": 0 },
-      { "id": "d1q9", "type": "estimate", "points": 2, "text": "Wie viele Sonnenstunden hat Málaga pro Jahr (gerundet auf 100)?", "target": 2900, "tolerance": 200, "unit": "Stunden" },
-      { "id": "d1q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer Autobahn hat Spanien (gerundet auf 1.000)? Deutschland hat ca. 13.000 km.", "target": 17000, "tolerance": 2000, "unit": "km" }
+      {
+        "id": "d1q1",
+        "type": "mc",
+        "points": 1,
+        "text": "In welchem Meer liegt Malta?",
+        "options": [
+          "Ägäis",
+          "Mittelmeer",
+          "Schwarzes Meer",
+          "Nordsee"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d1q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Stadt ist Maltas Hauptstadt?",
+        "options": [
+          "Mdina",
+          "Sliema",
+          "Valletta",
+          "Rabat"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "d1q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Währung verwendet Malta?",
+        "options": [
+          "Maltesische Lira",
+          "Euro",
+          "Pfund",
+          "Dinar"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d1q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche beiden Sprachen sind Maltas Amtssprachen?",
+        "options": [
+          "Maltesisch und Englisch",
+          "Italienisch und Englisch",
+          "Maltesisch und Französisch",
+          "Arabisch und Italienisch"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d1q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Wie heißt Maltas internationaler Flughafen?",
+        "options": [
+          "Luqa / Malta International Airport",
+          "Gozo Airport",
+          "Valletta City Airport",
+          "Sliema Airport"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d1q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Auf welcher Seite des Straßenverkehrs fährt man auf Malta?",
+        "options": [
+          "Rechts",
+          "Links",
+          "Je nach Insel",
+          "Nur in Valletta links"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d1q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Wie heißt die Insel nördlich der Hauptinsel Malta?",
+        "options": [
+          "Elba",
+          "Gozo",
+          "Kreta",
+          "Korfu"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d1q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "Wie viele bewohnte Hauptinseln umfasst der maltesische Archipel üblicherweise?",
+        "target": 3,
+        "tolerance": 0,
+        "unit": "Inseln"
+      }
     ]
   },
   {
     "day": 2,
-    "date": "2026-04-19",
-    "title": "Costa del Sol",
+    "date": "2026-11-01",
+    "title": "Valletta entdecken",
     "questions": [
-      { "id": "d2q1", "type": "mc", "points": 1, "text": "Was bedeutet 'Costa del Sol' auf Deutsch?", "options": ["Goldküste", "Sonnenküste", "Wilde Küste", "Weiße Küste"], "correctIndex": 1 },
-      { "id": "d2q2", "type": "mc", "points": 1, "text": "Welche Stadt liegt westlich von Málaga direkt an der Costa del Sol?", "options": ["Nerja", "Torremolinos", "Marbella", "Fuengirola"], "correctIndex": 1 },
-      { "id": "d2q3", "type": "mc", "points": 1, "text": "Welcher Fußballclub kommt aus Málaga?", "options": ["FC Sevilla", "Málaga CF", "Real Betis", "Granada CF"], "correctIndex": 1 },
-      { "id": "d2q4", "type": "mc", "points": 1, "text": "Wie heißt die Altstadt von Málaga?", "options": ["El Born", "El Centro Histórico", "La Malagueta", "El Perchel"], "correctIndex": 1 },
-      { "id": "d2q5", "type": "mc", "points": 2, "text": "Welche Stadt an der Costa del Sol ist für ihre Luxusyachten und Reichen bekannt?", "options": ["Torremolinos", "Benalmádena", "Marbella", "Estepona"], "correctIndex": 2 },
-      { "id": "d2q6", "type": "mc", "points": 2, "text": "Ist die Costa del Sol länger oder kürzer als die deutsche Nordseeküste (ca. 450 km)?", "options": ["Länger", "Kürzer", "Gleich lang", "Die Costa del Sol hat keine Küstenlinie"], "correctIndex": 1 },
-      { "id": "d2q7", "type": "estimate", "points": 2, "text": "Wie lang ist die Costa del Sol in Kilometern?", "target": 150, "tolerance": 20, "unit": "km" },
-      { "id": "d2q8", "type": "estimate", "points": 2, "text": "Wie viele Touristen besucht die Costa del Sol pro Jahr (in Millionen)?", "target": 13, "tolerance": 3, "unit": "Millionen" },
-      { "id": "d2q9", "type": "mc", "points": 2, "text": "Welches berühmte Golfresort liegt an der Costa del Sol westlich von Marbella?", "options": ["Valderrama", "El Saler", "Real Club de Golf", "La Manga"], "correctIndex": 0 },
-      { "id": "d2q10", "type": "estimate", "points": 4, "text": "Wie viele deutsche Touristen besuchen Spanien pro Jahr (in Millionen, Toleranz ±2)?", "target": 12, "tolerance": 2, "unit": "Millionen" }
+      {
+        "id": "d2q1",
+        "type": "mc",
+        "points": 1,
+        "text": "Welcher Ritterorden prägte Valletta besonders?",
+        "options": [
+          "Templerorden",
+          "Johanniterorden",
+          "Deutscher Orden",
+          "Franziskanerorden"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d2q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Nach wem ist Valletta benannt?",
+        "options": [
+          "Jean Parisot de Valette",
+          "Napoleon Bonaparte",
+          "Königin Victoria",
+          "Paulus von Tarsus"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welches Bauwerk ist für Caravaggio-Gemälde bekannt?",
+        "options": [
+          "St. John's Co-Cathedral",
+          "Rotunda von Mosta",
+          "Fort Rinella",
+          "Palazzo Parisio"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Wie heißt der berühmte Aussichtspunkt über dem Grand Harbour?",
+        "options": [
+          "Upper Barrakka Gardens",
+          "Buskett Gardens",
+          "San Anton Gardens",
+          "Hastings Gardens"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Stadt liegt gegenüber von Valletta am Grand Harbour?",
+        "options": [
+          "Vittoriosa (Birgu)",
+          "Mellieħa",
+          "Marsalforn",
+          "Victoria"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Welcher Hafen liegt zwischen Valletta und den Three Cities?",
+        "options": [
+          "Grand Harbour",
+          "Marsamxett Harbour",
+          "Marsaxlokk Bay",
+          "St. Paul's Bay"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d2q7",
+        "type": "mc",
+        "points": 2,
+        "text": "In welchem Jahrhundert wurde Valletta gegründet?",
+        "options": [
+          "14. Jahrhundert",
+          "15. Jahrhundert",
+          "16. Jahrhundert",
+          "19. Jahrhundert"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "d2q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "In welchem Jahr begann die Gründung von Valletta?",
+        "target": 1566,
+        "tolerance": 0,
+        "unit": "Jahr"
+      }
     ]
   },
   {
     "day": 3,
-    "date": "2026-04-20",
-    "title": "Granada & Alhambra",
+    "date": "2026-11-02",
+    "title": "Geschichte und Ritter",
     "questions": [
-      { "id": "d3q1", "type": "mc", "points": 1, "text": "Wie heißt die berühmte maurische Palastanlage in Granada?", "options": ["Alcázar", "Alcazaba", "Alhambra", "Generalife"], "correctIndex": 2 },
-      { "id": "d3q2", "type": "mc", "points": 1, "text": "Welches Gebirge liegt direkt hinter Granada?", "options": ["Pyrenäen", "Sierra Nevada", "Picos de Europa", "Sierra Morena"], "correctIndex": 1 },
-      { "id": "d3q3", "type": "mc", "points": 1, "text": "Was bedeutet 'Alhambra' auf Arabisch?", "options": ["Weißes Schloss", "Rote Festung", "Goldener Palast", "Hoher Berg"], "correctIndex": 1 },
-      { "id": "d3q4", "type": "mc", "points": 1, "text": "Wie heißt der Gartenkomplex neben der Alhambra?", "options": ["Alcázar", "Realejo", "Generalife", "Albaicín"], "correctIndex": 2 },
-      { "id": "d3q5", "type": "mc", "points": 2, "text": "In welchem Jahr endete die maurische Herrschaft in Granada (Reconquista)?", "options": ["1391", "1492", "1512", "1556"], "correctIndex": 1 },
-      { "id": "d3q6", "type": "mc", "points": 2, "text": "Welches Stadtviertel in Granada ist für seine Höhlenwohnungen und Flamenco-Shows bekannt?", "options": ["Albaicín", "Sacromonte", "Realejo", "La Chana"], "correctIndex": 1 },
-      { "id": "d3q7", "type": "estimate", "points": 2, "text": "Wie hoch liegt Granada über dem Meeresspiegel (in Metern)?", "target": 690, "tolerance": 80, "unit": "Meter" },
-      { "id": "d3q8", "type": "estimate", "points": 2, "text": "Wie hoch ist der Mulhacén in der Sierra Nevada (höchster Berg des Festlands)?", "target": 3479, "tolerance": 150, "unit": "Meter" },
-      { "id": "d3q9", "type": "mc", "points": 2, "text": "Liegt die Zugspitze höher oder niedriger als der Mulhacén? (Zugspitze: 2.962 m)", "options": ["Höher", "Niedriger", "Gleich hoch", "Die Zugspitze liegt in Österreich"], "correctIndex": 1 },
-      { "id": "d3q10", "type": "estimate", "points": 4, "text": "Wie viele Besucher pro Jahr hat die Alhambra (in Millionen, Toleranz ±0,5)?", "target": 2.7, "tolerance": 0.5, "unit": "Millionen" }
+      {
+        "id": "d3q1",
+        "type": "mc",
+        "points": 1,
+        "text": "In welchem Jahr fand die Große Belagerung Maltas statt?",
+        "options": [
+          "1492",
+          "1565",
+          "1701",
+          "1800"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d3q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Wer verteidigte Malta 1565 gegen das Osmanische Reich?",
+        "options": [
+          "Johanniter und maltesische Verbündete",
+          "Wikinger",
+          "Normannen",
+          "Franzosen"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d3q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welches Land beherrschte Malta bis zur Unabhängigkeit?",
+        "options": [
+          "Spanien",
+          "Großbritannien",
+          "Griechenland",
+          "Portugal"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d3q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Wann wurde Malta unabhängig?",
+        "options": [
+          "1945",
+          "1964",
+          "1974",
+          "2004"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d3q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Wann trat Malta der Europäischen Union bei?",
+        "options": [
+          "1995",
+          "2000",
+          "2004",
+          "2010"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "d3q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Stadt wird als die 'Stille Stadt' bezeichnet?",
+        "options": [
+          "Mdina",
+          "Valletta",
+          "Mosta",
+          "Senglea"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d3q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Mit welchem antiken Volk ist die frühe maritime Geschichte Maltas verbunden?",
+        "options": [
+          "Phönizier",
+          "Inka",
+          "Azteken",
+          "Mongolen"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d3q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "Wie viele Jahre liegen zwischen der Großen Belagerung (1565) und der Unabhängigkeit (1964)?",
+        "target": 399,
+        "tolerance": 0,
+        "unit": "Jahre"
+      }
     ]
   },
   {
     "day": 4,
-    "date": "2026-04-21",
-    "title": "Sevilla",
+    "date": "2026-11-03",
+    "title": "Sprache und Alltag",
     "questions": [
-      { "id": "d4q1", "type": "mc", "points": 1, "text": "Welcher Fluss fließt durch Sevilla?", "options": ["Tajo", "Ebro", "Guadalquivir", "Duero"], "correctIndex": 2 },
-      { "id": "d4q2", "type": "mc", "points": 1, "text": "Wie heißt das Frühlingsfest in Sevilla?", "options": ["Las Fallas", "Feria de Abril", "La Tomatina", "San Fermín"], "correctIndex": 1 },
-      { "id": "d4q3", "type": "mc", "points": 1, "text": "Welches andalusische Gericht ist eine kalte Tomatensuppe?", "options": ["Salmorejo", "Gazpacho", "Ajoblanco", "Porra"], "correctIndex": 1 },
-      { "id": "d4q4", "type": "mc", "points": 1, "text": "Was bedeutet 'Tapas' ursprünglich auf Deutsch?", "options": ["Kleine Bissen", "Deckel", "Vorspeise", "Abendessen"], "correctIndex": 1 },
-      { "id": "d4q5", "type": "mc", "points": 2, "text": "Wie heißt die große Moschee-Kathedrale in Sevilla?", "options": ["Mezquita", "Giralda", "Catedral de Santa María", "Alcázar"], "correctIndex": 2 },
-      { "id": "d4q6", "type": "mc", "points": 2, "text": "In welcher Stadt wurde Christoph Kolumbus begraben?", "options": ["Huelva", "Cádiz", "Sevilla", "Córdoba"], "correctIndex": 2 },
-      { "id": "d4q7", "type": "estimate", "points": 2, "text": "Wie hoch ist der Glockenturm Giralda in Sevilla (in Metern)?", "target": 98, "tolerance": 10, "unit": "Meter" },
-      { "id": "d4q8", "type": "mc", "points": 2, "text": "Ist Sevilla größer oder kleiner als München (München: ca. 1,5 Mio. Einwohner)?", "options": ["Größer", "Kleiner", "Gleich groß", "Kommt auf die Stadtgrenzen an"], "correctIndex": 1 },
-      { "id": "d4q9", "type": "estimate", "points": 2, "text": "In welchem Jahr fand die Weltausstellung in Sevilla statt?", "target": 1992, "tolerance": 2, "unit": "" },
-      { "id": "d4q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer ist Sevilla von Málaga entfernt (Luftlinie, Toleranz ±20)?", "target": 165, "tolerance": 20, "unit": "km" }
+      {
+        "id": "d4q1",
+        "type": "mc",
+        "points": 1,
+        "text": "Wie sagt man auf Maltesisch 'Danke'?",
+        "options": [
+          "Grazzi",
+          "Hola",
+          "Merci",
+          "Ciao"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d4q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Sprachfamilie hat Maltesisch als Grundlage?",
+        "options": [
+          "Germanisch",
+          "Semitisch",
+          "Slawisch",
+          "Keltisch"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "d4q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Mit welchen Buchstaben wird Maltesisch geschrieben?",
+        "options": [
+          "Kyrillisch",
+          "Arabisch",
+          "Lateinisch",
+          "Griechisch"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "d4q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Was bedeutet 'Bongu'?",
+        "options": [
+          "Guten Morgen",
+          "Gute Nacht",
+          "Entschuldigung",
+          "Tschüss"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d4q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Wie heißt der traditionelle, oft mit Ricotta gefüllte Blätterteig-Snack?",
+        "options": [
+          "Pastizz",
+          "Paella",
+          "Arancino",
+          "Baklava"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d4q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Spezialität wird oft mit Kaninchen zubereitet?",
+        "options": [
+          "Stuffat tal-fenek",
+          "Fish and Chips",
+          "Moussaka",
+          "Ratatouille"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d4q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Währung hatte Malta unmittelbar vor dem Euro?",
+        "options": [
+          "Maltesische Lira",
+          "Italienische Lira",
+          "Zypern-Pfund",
+          "Spanische Peseta"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d4q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "In welchem Jahr führte Malta den Euro ein?",
+        "target": 2008,
+        "tolerance": 0,
+        "unit": "Jahr"
+      }
     ]
   },
   {
     "day": 5,
-    "date": "2026-04-22",
-    "title": "Flamenco & Kultur",
+    "date": "2026-11-04",
+    "title": "Natur und Inseln",
     "questions": [
-      { "id": "d5q1", "type": "mc", "points": 1, "text": "Aus welcher Region Spaniens stammt der Flamenco?", "options": ["Katalonien", "Madrid", "Andalusien", "Kastilien"], "correctIndex": 2 },
-      { "id": "d5q2", "type": "mc", "points": 1, "text": "Welches Instrument ist typisch für den Flamenco?", "options": ["Violine", "Gitarre", "Mandoline", "Banjo"], "correctIndex": 1 },
-      { "id": "d5q3", "type": "mc", "points": 1, "text": "Wer schrieb 'Don Quijote'?", "options": ["Lope de Vega", "García Lorca", "Miguel de Cervantes", "Francisco de Quevedo"], "correctIndex": 2 },
-      { "id": "d5q4", "type": "mc", "points": 1, "text": "Welcher Maler aus Málaga schuf das Gemälde 'Guernica'?", "options": ["Francisco Goya", "El Greco", "Pablo Picasso", "Diego Velázquez"], "correctIndex": 2 },
-      { "id": "d5q5", "type": "mc", "points": 2, "text": "Welcher Regisseur drehte 'Alles über meine Mutter' und stammt aus der Mancha?", "options": ["Carlos Saura", "Pedro Almodóvar", "Alejandro Amenábar", "Bigas Luna"], "correctIndex": 1 },
-      { "id": "d5q6", "type": "mc", "points": 2, "text": "Hat Spanien oder Deutschland mehr UNESCO-Weltkulturerbestätten (Stand 2024)?", "options": ["Spanien (ca. 50)", "Deutschland (ca. 52)", "Beide gleich viel", "Keines von beiden hat mehr als 40"], "correctIndex": 1 },
-      { "id": "d5q7", "type": "estimate", "points": 2, "text": "In welchem Jahr wurde Spanien Fußball-Weltmeister zum ersten Mal?", "target": 2010, "tolerance": 1, "unit": "" },
-      { "id": "d5q8", "type": "estimate", "points": 2, "text": "Wie oft wurde Spanien Fußball-Europameister (Stand 2024)?", "target": 4, "tolerance": 1, "unit": "Mal" },
-      { "id": "d5q9", "type": "mc", "points": 2, "text": "Welche Stadt ist Heimat des Prado-Museums?", "options": ["Barcelona", "Sevilla", "Madrid", "Valencia"], "correctIndex": 2 },
-      { "id": "d5q10", "type": "estimate", "points": 4, "text": "Wie viele Einwohner hat Andalusien (in Millionen, Toleranz ±0,5)?", "target": 8.5, "tolerance": 0.5, "unit": "Millionen" }
+      {
+        "id": "d5q1",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche kleine Insel zwischen Malta und Gozo ist berühmt für die Blue Lagoon?",
+        "options": [
+          "Comino",
+          "Filfla",
+          "Sicilia",
+          "Pantelleria"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Wie heißt die Hauptstadt von Gozo?",
+        "options": [
+          "Victoria (Rabat)",
+          "Sliema",
+          "Mellieħa",
+          "Żabbar"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Küste ist für hohe Klippen bekannt?",
+        "options": [
+          "Dingli Cliffs",
+          "Golden Bay",
+          "Spinola Bay",
+          "Balluta Bay"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Welches Naturphänomen zerstörte das Azure Window 2017?",
+        "options": [
+          "Ein Sturm mit starkem Wellengang",
+          "Ein Erdbeben",
+          "Ein Vulkanausbruch",
+          "Ein Blitzschlag"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Welcher Ort auf Malta ist für bunte Fischerboote und seinen Markt bekannt?",
+        "options": [
+          "Marsaxlokk",
+          "Mdina",
+          "Mosta",
+          "Żebbuġ"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Wie nennt man die traditionellen bunt bemalten Fischerboote?",
+        "options": [
+          "Luzzu",
+          "Gondola",
+          "Dhow",
+          "Trireme"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d5q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche dieser Inseln ist die größte?",
+        "options": [
+          "Gozo",
+          "Comino",
+          "Malta",
+          "Filfla"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "d5q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "Wie hoch sind die Dingli Cliffs ungefähr über dem Meeresspiegel?",
+        "target": 253,
+        "tolerance": 30,
+        "unit": "Meter"
+      }
     ]
   },
   {
     "day": 6,
-    "date": "2026-04-23",
-    "title": "Ronda & Weißes Dorf",
+    "date": "2026-11-05",
+    "title": "Tempel und Kultur",
     "questions": [
-      { "id": "d6q1", "type": "mc", "points": 1, "text": "Wie nennt man die typischen weiß getünchten Dörfer in Andalusien?", "options": ["Pueblos Rojos", "Pueblos Blancos", "Pueblos Viejos", "Pueblos Altos"], "correctIndex": 1 },
-      { "id": "d6q2", "type": "mc", "points": 1, "text": "Wie heißt die spektakuläre Schlucht, über die Ronda gebaut ist?", "options": ["El Tajo", "El Cañón", "La Garganta", "El Barranco"], "correctIndex": 0 },
-      { "id": "d6q3", "type": "mc", "points": 1, "text": "Welcher Schriftsteller besang Ronda in seinen Werken und besuchte die Stadt oft?", "options": ["Ernest Hemingway", "Rainer Maria Rilke", "Gabriel García Márquez", "Beide A und B"], "correctIndex": 3 },
-      { "id": "d6q4", "type": "mc", "points": 1, "text": "Wie heißt die alte Stierkampfarena in Ronda — eine der ältesten Spaniens?", "options": ["Plaza de Toros de la Maestranza", "Plaza de Toros de Ronda", "Real Maestranza de Ronda", "Plaza Mayor"], "correctIndex": 2 },
-      { "id": "d6q5", "type": "mc", "points": 2, "text": "Wie heißt die berühmte Brücke über den Tajo in Ronda?", "options": ["Puente Romano", "Puente Nuevo", "Puente Viejo", "Puente Árabe"], "correctIndex": 1 },
-      { "id": "d6q6", "type": "mc", "points": 2, "text": "Wie weit liegt Ronda von Málaga entfernt (Fahrtstrecke)?", "options": ["Ca. 50 km", "Ca. 100 km", "Ca. 150 km", "Ca. 200 km"], "correctIndex": 1 },
-      { "id": "d6q7", "type": "estimate", "points": 2, "text": "Wie hoch liegt Ronda über dem Meeresspiegel (in Metern)?", "target": 750, "tolerance": 80, "unit": "Meter" },
-      { "id": "d6q8", "type": "estimate", "points": 2, "text": "In welchem Jahrhundert wurde die Puente Nuevo in Ronda fertiggestellt (18xx)?", "target": 1793, "tolerance": 20, "unit": "" },
-      { "id": "d6q9", "type": "mc", "points": 2, "text": "Gibt es in Deutschland eine Stadt, die ähnlich spektakulär auf einem Felsen über einer Schlucht gebaut ist?", "options": ["Ja, Rothenburg ob der Tauber", "Ja, Blaubeuren", "Nein, so etwas gibt es in Deutschland nicht", "Ja, Königstein im Taunus"], "correctIndex": 3 },
-      { "id": "d6q10", "type": "estimate", "points": 4, "text": "Wie viele Pueblos Blancos (Weiße Dörfer) gibt es in Andalusien offiziell (Toleranz ±10)?", "target": 19, "tolerance": 10, "unit": "Dörfer" }
+      {
+        "id": "d6q1",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche prähistorischen Tempel auf Malta gehören zum UNESCO-Welterbe?",
+        "options": [
+          "Ħaġar Qim und Mnajdra",
+          "Parthenon und Delphi",
+          "Stonehenge und Avebury",
+          "Karnak und Luxor"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Welcher unterirdische Fundort ist UNESCO-Welterbe?",
+        "options": [
+          "Ħal Saflieni Hypogeum",
+          "St. Paul's Catacombs",
+          "Lascaris War Rooms",
+          "Fort St. Elmo"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche berühmte Filmproduktion nutzte Malta als Drehort für King's Landing?",
+        "options": [
+          "Game of Thrones",
+          "The Crown",
+          "Breaking Bad",
+          "Stranger Things"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q4",
+        "type": "mc",
+        "points": 1,
+        "text": "In welchem Ort steht die große Rotunda-Kirche?",
+        "options": [
+          "Mosta",
+          "Sliema",
+          "Marsaxlokk",
+          "Rabat"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Farbe haben die klassischen maltesischen Balkone häufig?",
+        "options": [
+          "Grün",
+          "Lila",
+          "Rosa",
+          "Türkis mit Streifen"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche UNESCO-Auszeichnung trägt Valletta?",
+        "options": [
+          "Welterbestätte",
+          "Weltgeopark",
+          "Biosphärenreservat",
+          "Immaterielles Kulturerbe als Ganzes"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Welcher Komponist stammt aus Malta?",
+        "options": [
+          "Charles Camilleri",
+          "Wolfgang Amadeus Mozart",
+          "Edvard Grieg",
+          "Frédéric Chopin"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d6q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "Ungefähr wie viele Jahre alt sind die ältesten megalithischen Tempel Maltas (Stand 2026)?",
+        "target": 5600,
+        "tolerance": 500,
+        "unit": "Jahre"
+      }
     ]
   },
   {
     "day": 7,
-    "date": "2026-04-24",
-    "title": "Natur & Vergleiche",
+    "date": "2026-11-06",
+    "title": "Das Malta-Finale",
     "questions": [
-      { "id": "d7q1", "type": "mc", "points": 1, "text": "Welches Gebirge liegt direkt hinter Málaga im Norden?", "options": ["Sierra Nevada", "Montes de Málaga", "Sierra de Grazalema", "Sierra Morena"], "correctIndex": 1 },
-      { "id": "d7q2", "type": "mc", "points": 1, "text": "Welche Meerenge trennt Spanien von Marokko?", "options": ["Straße von Messina", "Straße von Gibraltar", "Straße von Sizilien", "Straße von Bonifacio"], "correctIndex": 1 },
-      { "id": "d7q3", "type": "mc", "points": 1, "text": "Welcher Fluss ist länger — der Rhein oder der Ebro?", "options": ["Rhein (1.230 km)", "Ebro (930 km)", "Beide gleich lang", "Kommt auf die Messung an"], "correctIndex": 0 },
-      { "id": "d7q4", "type": "mc", "points": 1, "text": "Ist Spanien größer oder kleiner als Deutschland?", "options": ["Größer (ca. 506.000 km²)", "Kleiner (ca. 357.000 km²)", "Gleich groß", "Deutschland ist größer"], "correctIndex": 0 },
-      { "id": "d7q5", "type": "mc", "points": 2, "text": "Welches spanische Gebiet liegt auf dem afrikanischen Kontinent?", "options": ["Gibraltar", "Ceuta", "Melilla", "Ceuta und Melilla"], "correctIndex": 3 },
-      { "id": "d7q6", "type": "mc", "points": 2, "text": "Hat der Bodensee eine größere oder kleinere Fläche als der Stausee Embalse de la Viñuela bei Málaga?", "options": ["Bodensee ist viel größer", "Beide gleich groß", "Viñuela ist größer", "Kaum ein Unterschied"], "correctIndex": 0 },
-      { "id": "d7q7", "type": "estimate", "points": 2, "text": "Wie hoch ist der Teide auf Teneriffa in Metern?", "target": 3715, "tolerance": 150, "unit": "Meter" },
-      { "id": "d7q8", "type": "estimate", "points": 2, "text": "Wie breit ist die Straße von Gibraltar an der schmalsten Stelle (in km)?", "target": 14, "tolerance": 3, "unit": "km" },
-      { "id": "d7q9", "type": "mc", "points": 2, "text": "Wie viele Nationalparks hat Spanien — mehr oder weniger als Deutschland (16)?", "options": ["Mehr (16 in Spanien)", "Weniger (16 in Deutschland, Spanien hat weniger)", "Beide haben 16", "Spanien hat gar keine Nationalparks"], "correctIndex": 0 },
-      { "id": "d7q10", "type": "estimate", "points": 4, "text": "Wie viele Kilometer ist Afrika von der Küste bei Málaga entfernt (Luftlinie, Toleranz ±10)?", "target": 130, "tolerance": 15, "unit": "km" }
-    ]
-  },
-  {
-    "day": 8,
-    "date": "2026-04-25",
-    "title": "Quiz-Finale",
-    "questions": [
-      { "id": "d8q1", "type": "mc", "points": 1, "text": "Wie lautet der spanische Begriff für 'Prost'?", "options": ["Saúde", "Cin Cin", "Salud", "Skål"], "correctIndex": 2 },
-      { "id": "d8q2", "type": "mc", "points": 1, "text": "Welches spanische Wort bezeichnet die Mittagsruhe?", "options": ["Fiesta", "Siesta", "Corrida", "Tertulia"], "correctIndex": 1 },
-      { "id": "d8q3", "type": "mc", "points": 1, "text": "Wie heißt der berühmte Jakobsweg auf Spanisch?", "options": ["Ruta de la Plata", "Camino de Santiago", "Via Augusta", "Camino Real"], "correctIndex": 1 },
-      { "id": "d8q4", "type": "mc", "points": 1, "text": "Welches spanische Gericht besteht aus Ei und Kartoffeln?", "options": ["Paella", "Gazpacho", "Tortilla Española", "Fabada"], "correctIndex": 2 },
-      { "id": "d8q5", "type": "mc", "points": 2, "text": "Hat Spanien oder Deutschland mehr Autobahn pro Einwohner?", "options": ["Spanien", "Deutschland", "Beide gleich viel", "Keines von beiden hat Autobahn"], "correctIndex": 0 },
-      { "id": "d8q6", "type": "mc", "points": 2, "text": "Welche Stadt war die erste Hauptstadt Spaniens?", "options": ["Toledo", "Burgos", "Valladolid", "Segovia"], "correctIndex": 0 },
-      { "id": "d8q7", "type": "mc", "points": 2, "text": "Wie heißt die spanische Nationalhymne?", "options": ["Himno de Riego", "La Marcha Real", "La Paloma", "Cara al Sol"], "correctIndex": 1 },
-      { "id": "d8q8", "type": "estimate", "points": 2, "text": "Wie viele Millionen Touristen besucht Spanien pro Jahr (Stand 2023)?", "target": 85, "tolerance": 10, "unit": "Millionen" },
-      { "id": "d8q9", "type": "estimate", "points": 2, "text": "Wie viele Kilometer ist der Camino Francés (klassischer Jakobsweg) lang?", "target": 780, "tolerance": 50, "unit": "km" },
-      { "id": "d8q10", "type": "estimate", "points": 4, "text": "Wie viele Tage Urlaub haben Spanier im Jahr gesetzlich mindestens? Deutschland hat 20 Werktage.", "target": 22, "tolerance": 2, "unit": "Werktage" }
+      {
+        "id": "d7q1",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Inselgruppe gehört geografisch zum Staat Malta?",
+        "options": [
+          "Malta, Gozo und Comino",
+          "Malta, Kreta und Rhodos",
+          "Malta, Sizilien und Sardinien",
+          "Malta, Korsika und Elba"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q2",
+        "type": "mc",
+        "points": 1,
+        "text": "Welches Meer trennt Malta von Nordafrika?",
+        "options": [
+          "Mittelmeer",
+          "Rotes Meer",
+          "Adria",
+          "Schwarzes Meer"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q3",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Stadt war vor Valletta die Hauptstadt Maltas?",
+        "options": [
+          "Mdina",
+          "Sliema",
+          "Marsaxlokk",
+          "Żejtun"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q4",
+        "type": "mc",
+        "points": 1,
+        "text": "Welche Stadt wird häufig mit den Three Cities zusammen genannt?",
+        "options": [
+          "Cospicua (Bormla)",
+          "St. Julian's",
+          "Mellieħa",
+          "Qawra"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q5",
+        "type": "mc",
+        "points": 2,
+        "text": "Welches Tier ist ein traditionelles Hauptgericht der maltesischen Küche?",
+        "options": [
+          "Kaninchen",
+          "Rentier",
+          "Känguru",
+          "Lama"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q6",
+        "type": "mc",
+        "points": 2,
+        "text": "Welche Flaggenfarben hat Malta?",
+        "options": [
+          "Rot und Weiß",
+          "Rot und Gelb",
+          "Blau und Weiß",
+          "Grün und Rot"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q7",
+        "type": "mc",
+        "points": 2,
+        "text": "Welches Kreuz ist ein bekanntes Symbol der Johanniter?",
+        "options": [
+          "Malteserkreuz",
+          "Andreaskreuz",
+          "Keltisches Kreuz",
+          "Lateinisches Kreuz"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "d7q8",
+        "type": "estimate",
+        "points": 4,
+        "text": "Wie viele Jahre liegen zwischen Maltas EU-Beitritt 2004 und dem Quizjahr 2026?",
+        "target": 22,
+        "tolerance": 0,
+        "unit": "Jahre"
+      }
     ]
   }
 ]
