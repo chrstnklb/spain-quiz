@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { saveScore } from '../lib/supabase';
 
-const STORAGE_KEY = 'spain_quiz_answers';
+const STORAGE_KEY = 'malta_quiz_answers';
 
 interface AnswerMap {
   [day: number]: {
