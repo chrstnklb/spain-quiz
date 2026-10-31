@@ -111,7 +111,7 @@ export function HistoryView({ playerName, onBack }: Props) {
 
 const styles: Record<string, React.CSSProperties> = {
   container: { maxWidth: '600px', margin: '0 auto', padding: '1rem' },
-  backBtn: { background: 'none', border: 'none', color: '#c60b1e', cursor: 'pointer', fontSize: '0.95rem', marginBottom: '1rem', padding: 0 },
+  backBtn: { background: 'none', border: 'none', color: '#b32234', cursor: 'pointer', fontSize: '0.95rem', marginBottom: '1rem', padding: 0 },
   heading: { margin: '0 0 1rem', color: '#333' },
   empty: { color: '#888' },
   dayTabs: { display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' },
