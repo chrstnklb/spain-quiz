@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const STORAGE_KEY = 'spain_quiz_player';
+const STORAGE_KEY = 'malta_quiz_player';
 
 export function usePlayer() {
   const [playerName, setPlayerNameState] = useState<string | null>(
